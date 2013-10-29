@@ -1,0 +1,6 @@
+# Execute the monitoring script every 10 minutes.
+# Twitter rate-limits its search API calls.  As of
+# v1.1, you can make 180 search queries in 15 minutes.
+
+*/10 * * * * /usr/local/bin/php /path/to/monitor.php
+
